@@ -1,0 +1,10 @@
+CREATE (user_1:User { user_id: '8427fe8b-c03d-466a-995d-19b7d7251fd7' , name: 'Karthikeyan Sadayamuthu', report_count: 0 ,reporter_since: '2019-07-06'});
+CREATE (user_2:User { user_id: '7056f471-240b-499e-a270-3f10b4910f63' , name: 'Vinodhkannan Sadayamuthu', report_count: 0 ,reporter_since: '2019-07-06'});
+CREATE (user_3:User { user_id: 'e0200c0b-0e87-46a5-b103-18ea770b1f5e' , name: 'Anand Sadayamuthu', report_count: 0 ,reporter_since: '2019-07-06'});
+CREATE (user_4:User { user_id: '07fdb5c8-42d4-496c-b84f-cf59566e5a25' , name: 'Sekar Sadayamuthu', report_count: 0 ,reporter_since: '2019-07-06'});
+CREATE (user_5:User { user_id: 'bb526d0a-a777-4d5d-a2b3-96137dab1002' , name: 'Vivek Shankar', report_count: 0 ,reporter_since: '2019-07-06'});
+CREATE (user_6:User { user_id: 'c5ffc52d-a832-4603-aa74-36737932eeca' , name: 'Binish Patel', report_count: 0 ,reporter_since: '2019-07-06'});
+CREATE (user_7:User { user_id: '5fe01830-5297-487c-bdeb-b89650871e18' , name: 'Chakkaravathi Kannan', report_count: 0 ,reporter_since: '2019-07-06'});
+CREATE (user_8:User { user_id: '026b383f-7268-471b-bd5c-c886abfb2d6d' , name: 'Karthick Dhanasekar', report_count: 0 ,reporter_since: '2019-07-06'});
+CREATE (user_9:User { user_id: '110614a6-1d40-400d-b437-e5536273b817' , name: 'Amit Pandey', report_count: 0 ,reporter_since: '2019-07-06'});
+CREATE (user_10:User { user_id: 'db490532-7004-4155-9ce1-cd347870c4fd' , name: 'Praveen Kumar ', report_count: 0 ,reporter_since: '2019-07-06'});

@@ -1,0 +1,10 @@
+CREATE (business_1:Business { business_id: '0679ba9e-ba54-45e6-8cef-50dc28bf39b0' , name: 'Verizon', report_count: 0 , rating: '',category: 'cell_service_provider'});
+CREATE (business_2:Business { business_id: '570bac06-5d8c-4523-9704-479a8fa83d55' , name: 'T-Mobile', report_count: 0 , rating: '',category: 'cell_service_provider'});
+CREATE (business_3:Business { business_id: 'b20598e5-5183-44fa-b626-887b2b4c87a0' , name: 'AT&T', report_count: 0 , rating: '',category: 'cell_service_provider'});
+CREATE (business_4:Business { business_id: '3adcf009-4046-4540-b979-8933a151b42b' , name: 'Metro PCS', report_count: 0 , rating: '',category: 'cell_service_provider'});
+CREATE (business_5:Business { business_id: '454c2b19-3403-4049-87d4-65fd7ef9014a' , name: 'Sprint', report_count: 0 , rating: '',category: 'cell_service_provider'});
+CREATE (business_6:Business { business_id: '7ac962d0-2e71-4ebd-b18f-242f8df23f3e' , name: 'Virgin Mobile', report_count: 0 , rating: '',category: 'cell_service_provider'});
+CREATE (business_7:Business { business_id: 'bca7d158-6b0a-44ff-aecf-0642a2b7af51' , name: 'Boot Mobile', report_count: 0 , rating: '',category: 'cell_service_provider'});
+CREATE (business_8:Business { business_id: '73f45059-ab2c-4331-8e3d-f0b935e98612' , name: 'US Cellular', report_count: 0 , rating: '',category: 'cell_service_provider'});
+CREATE (business_9:Business { business_id: 'ab65e4a8-1a04-4ace-b941-5e5fe851e006' , name: 'Cricket Wireless', report_count: 0 , rating: '',category: 'cell_service_provider'});
+CREATE (business_10:Business { business_id: 'db6a9271-6922-4c79-bf11-6c6dfa108ffc' , name: 'US Mobile', report_count: 0 , rating: '',category: 'cell_service_provider'});

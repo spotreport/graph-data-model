@@ -1,0 +1,859 @@
+{
+    "GUID": "eb1259f0-9f96-11e9-9cb3-41fcffdfc5f8",
+    "modelName": "spotreport_model",
+    "code": "spotreport_model",
+    "lastModifTS": "2019-07-06T04:12:52.476Z",
+    "persistenceSchemaVersion": "3",
+    "description": "Sport Reporting App",
+    "comments": "",
+    "author": "Karthikeyn Sadayamuthu",
+    "version": "1",
+    "collections": [
+        {
+            "GUID": "12dc4930-9f99-11e9-8511-db4e31e22831",
+            "collectionName": "business",
+            "code": "business",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": true,
+            "properties": [
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "3c6c3d50-9f99-11e9-8511-db4e31e22831",
+                    "name": "business_id",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "752bacc0-9f99-11e9-8511-db4e31e22831",
+                    "name": "name",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "89fbe430-9f99-11e9-8511-db4e31e22831",
+                    "name": "report_count",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "d042eb50-9f99-11e9-8511-db4e31e22831",
+                    "name": "rating",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "properties": [],
+                    "primaryKey": false,
+                    "additionalItems": true,
+                    "minItems": "",
+                    "maxItems": "",
+                    "uniqueItems": false,
+                    "unique": false,
+                    "childType": "list",
+                    "type": "array",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "eb7de5a0-9f99-11e9-8511-db4e31e22831",
+                    "name": "categories",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "12de1df0-9f99-11e9-8511-db4e31e22831"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "bucketId": "e944db00-9f98-11e9-8511-db4e31e22831",
+            "id": "bu_id"
+        },
+        {
+            "GUID": "1a9d7ee0-9f9a-11e9-8511-db4e31e22831",
+            "collectionName": "report",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "2b1c3680-9f9a-11e9-8511-db4e31e22831",
+                    "name": "report_id",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "47b428c0-9f9a-11e9-8511-db4e31e22831",
+                    "name": "user_id",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "514d4830-9f9a-11e9-8511-db4e31e22831",
+                    "name": "business_id",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "6f4d07d0-9f9a-11e9-8511-db4e31e22831",
+                    "name": "date",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    },
+                    "format": "date"
+                },
+                {
+                    "unit": "",
+                    "minimum": "",
+                    "exclusiveMinimum": false,
+                    "maximum": "",
+                    "exclusiveMaximum": false,
+                    "multipleOf": "",
+                    "divisibleBy": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "mode": "",
+                    "sample": "",
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "87af1890-9f9a-11e9-8511-db4e31e22831",
+                    "name": "useful",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {}
+                },
+                {
+                    "unit": "",
+                    "minimum": "",
+                    "exclusiveMinimum": false,
+                    "maximum": "",
+                    "exclusiveMaximum": false,
+                    "multipleOf": "",
+                    "divisibleBy": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "mode": "",
+                    "sample": "",
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "9374b4f0-9f9a-11e9-8511-db4e31e22831",
+                    "name": "funny",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {}
+                },
+                {
+                    "unit": "",
+                    "minimum": "",
+                    "exclusiveMinimum": false,
+                    "maximum": "",
+                    "exclusiveMaximum": false,
+                    "multipleOf": "",
+                    "divisibleBy": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "mode": "",
+                    "sample": "",
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "a71d0e30-9f9a-11e9-8511-db4e31e22831",
+                    "name": "cool",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "b2ce3830-9f9a-11e9-8511-db4e31e22831",
+                    "name": "text",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "bc561990-9f9a-11e9-8511-db4e31e22831",
+                    "name": "type",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false,
+                        "enum": false,
+                        "enums": [
+                            false
+                        ]
+                    }
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "7fe7bcd0-9fa3-11e9-8511-db4e31e22831",
+                    "name": "zipcode",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "dec922c0-9fa3-11e9-8511-db4e31e22831",
+                    "name": "city",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "e64f8ed0-9fa3-11e9-8511-db4e31e22831",
+                    "name": "state",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "1aa435a0-9f9a-11e9-8511-db4e31e22831"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "bucketId": "e944db00-9f98-11e9-8511-db4e31e22831",
+            "id": "report"
+        },
+        {
+            "GUID": "61c2bb90-9f9b-11e9-8511-db4e31e22831",
+            "collectionName": "user",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "89bbbc00-9f9b-11e9-8511-db4e31e22831",
+                    "name": "reporter_since",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    },
+                    "format": "date"
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "7cf74d40-9f9b-11e9-8511-db4e31e22831",
+                    "name": "report_count",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "764177a0-9f9b-11e9-8511-db4e31e22831",
+                    "name": "name",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "68905ef0-9f9b-11e9-8511-db4e31e22831",
+                    "name": "user_id",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "61c839d0-9f9b-11e9-8511-db4e31e22831"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "bucketId": "e944db00-9f98-11e9-8511-db4e31e22831",
+            "id": "user"
+        }
+    ],
+    "buckets": [
+        {
+            "GUID": "e944db00-9f98-11e9-8511-db4e31e22831",
+            "name": "spotreport",
+            "code": "spotreport",
+            "type": "bucket",
+            "description": "",
+            "comments": "",
+            "collectionIds": [
+                "12dc4930-9f99-11e9-8511-db4e31e22831",
+                "1a9d7ee0-9f9a-11e9-8511-db4e31e22831",
+                "61c2bb90-9f9b-11e9-8511-db4e31e22831"
+            ],
+            "backgroundColor": {
+                "r": 33,
+                "g": 150,
+                "b": 243,
+                "a": 1
+            },
+            "show": true,
+            "indexes": [],
+            "hackoladeMeta": {
+                "namingConvention": ""
+            }
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "GUID": "f6e93790-9f9a-11e9-8511-db4e31e22831",
+            "name": "has_report",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "61c2bb90-9f9b-11e9-8511-db4e31e22831",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "1a9d7ee0-9f9a-11e9-8511-db4e31e22831",
+            "childField": [],
+            "childCardinality": "1",
+            "bucketId": "e944db00-9f98-11e9-8511-db4e31e22831",
+            "properties": []
+        },
+        {
+            "GUID": "cc9d5100-9f9b-11e9-8511-db4e31e22831",
+            "name": "has_business",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "12dc4930-9f99-11e9-8511-db4e31e22831",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "1a9d7ee0-9f9a-11e9-8511-db4e31e22831",
+            "childField": [],
+            "childCardinality": "1",
+            "bucketId": "e944db00-9f98-11e9-8511-db4e31e22831",
+            "properties": []
+        }
+    ],
+    "users": [],
+    "idToNameHashTable": {
+        "e944db00-9f98-11e9-8511-db4e31e22831": "spotreport",
+        "12dc4930-9f99-11e9-8511-db4e31e22831": "business",
+        "3c6c3d50-9f99-11e9-8511-db4e31e22831": "business_id",
+        "752bacc0-9f99-11e9-8511-db4e31e22831": "name",
+        "89fbe430-9f99-11e9-8511-db4e31e22831": "report_count",
+        "d042eb50-9f99-11e9-8511-db4e31e22831": "rating",
+        "eb7de5a0-9f99-11e9-8511-db4e31e22831": "categories",
+        "1a9d7ee0-9f9a-11e9-8511-db4e31e22831": "report",
+        "2b1c3680-9f9a-11e9-8511-db4e31e22831": "report_id",
+        "47b428c0-9f9a-11e9-8511-db4e31e22831": "user_id",
+        "514d4830-9f9a-11e9-8511-db4e31e22831": "business_id",
+        "6f4d07d0-9f9a-11e9-8511-db4e31e22831": "date",
+        "87af1890-9f9a-11e9-8511-db4e31e22831": "useful",
+        "9374b4f0-9f9a-11e9-8511-db4e31e22831": "funny",
+        "a71d0e30-9f9a-11e9-8511-db4e31e22831": "cool",
+        "b2ce3830-9f9a-11e9-8511-db4e31e22831": "text",
+        "bc561990-9f9a-11e9-8511-db4e31e22831": "type",
+        "f6e93790-9f9a-11e9-8511-db4e31e22831": "has_report",
+        "61c2bb90-9f9b-11e9-8511-db4e31e22831": "user",
+        "68905ef0-9f9b-11e9-8511-db4e31e22831": "user_id",
+        "764177a0-9f9b-11e9-8511-db4e31e22831": "name",
+        "7cf74d40-9f9b-11e9-8511-db4e31e22831": "report_count",
+        "89bbbc00-9f9b-11e9-8511-db4e31e22831": "reporter_since",
+        "cc9d5100-9f9b-11e9-8511-db4e31e22831": "has_business",
+        "7fe7bcd0-9fa3-11e9-8511-db4e31e22831": "zipcode",
+        "dec922c0-9fa3-11e9-8511-db4e31e22831": "city",
+        "e64f8ed0-9fa3-11e9-8511-db4e31e22831": "state"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "cd9d94b1-9f74-11e9-9cb3-41fcffdfc5f8"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "cd9d94b2-9f74-11e9-9cb3-41fcffdfc5f8"
+    },
+    "dbVersion": "3.x",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2019-07-05T22:32:42.619Z",
+    "hackoladeMeta": {
+        "namingConvention": ""
+    },
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.6",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "3.2.3"
+    },
+    "hideForeignMaster": true,
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "12dc4930-9f99-11e9-8511-db4e31e22831",
+                        "x": 12707,
+                        "y": 718,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "1a9d7ee0-9f9a-11e9-8511-db4e31e22831",
+                        "x": 12378,
+                        "y": 554,
+                        "width": 268,
+                        "height": 189,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "f6e93790-9f9a-11e9-8511-db4e31e22831",
+                        "x": 160,
+                        "y": 260,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "61c2bb90-9f9b-11e9-8511-db4e31e22831",
+                        "x": 11980,
+                        "y": 612,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "cc9d5100-9f9b-11e9-8511-db4e31e22831",
+                        "x": 100,
+                        "y": 150,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    }
+                ],
+                "buckets": [
+                    {
+                        "x": 60,
+                        "y": 80,
+                        "GUID": "e944db00-9f98-11e9-8511-db4e31e22831"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "selectedCollections": [],
+                "graphView": {
+                    "erd": [],
+                    "buckets": [
+                        {
+                            "x": 11940,
+                            "y": 484,
+                            "GUID": "e944db00-9f98-11e9-8511-db4e31e22831"
+                        }
+                    ]
+                },
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "displayColorPicker": false,
+                "expandCollections": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "details": true,
+            "hideErdDetails": false
+        }
+    }
+}
